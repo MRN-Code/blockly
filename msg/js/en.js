@@ -272,7 +272,9 @@ Blockly.Msg.PROCEDURES_CALL_BEFORE_PARAMS = "with:";
 Blockly.Msg.PROCEDURES_CREATE_DO = "Create '%1'";
 Blockly.Msg.PROCEDURES_DEFNORETURN_DO = "";
 Blockly.Msg.PROCEDURES_DEFNORETURN_HELPURL = "https://en.wikipedia.org/wiki/Procedure_%28computer_science%29";
-Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = "do something";
+//Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = "do something";
+//This is a temp solution. TODO customize a function block
+Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = "get rdoc value";
 Blockly.Msg.PROCEDURES_DEFNORETURN_TITLE = "to";
 Blockly.Msg.PROCEDURES_DEFNORETURN_TOOLTIP = "Creates a function with no output.";
 Blockly.Msg.PROCEDURES_DEFRETURN_HELPURL = "https://en.wikipedia.org/wiki/Procedure_%28computer_science%29";
