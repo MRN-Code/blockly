@@ -33,6 +33,7 @@ goog.require('Blockly.Blocks');
  * Common HSV hue for all blocks in this category.
  */
 Blockly.Blocks.variables.HUE = 330;
+Blockly.Blocks.variables.setHUE = 150;
 
 Blockly.Blocks['variables_get'] = {
   /**
@@ -109,7 +110,7 @@ Blockly.Blocks['variables_set'] = {
       ],
       "previousStatement": null,
       "nextStatement": null,
-      "colour": Blockly.Blocks.variables.HUE,
+      "colour": Blockly.Blocks.variables.setHUE,
       "tooltip": Blockly.Msg.VARIABLES_SET_TOOLTIP,
       "helpUrl": Blockly.Msg.VARIABLES_SET_HELPURL
     });
