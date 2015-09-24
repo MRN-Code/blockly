@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Advarsel: Denne funksjonen har d
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Marker funksjonsdefinisjonen";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Hvis en verdi er sann, returner da en annen verdi.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Advarsel: Denne blokken kan bare benyttes innenfor en funksjonsdefinisjon.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "Navn på parameter:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Legg til en input til funksjonen.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "parametere";

@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Предупреждение: э
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Выделить определение процедуры";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Если первое значение истинно, возвращает второе значение.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Предупреждение: Этот блок может использоваться только внутри определения функции.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "имя параметра:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Добавить входной параметр в функцию.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "параметры";

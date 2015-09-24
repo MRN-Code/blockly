@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Warnung: dieser Funktionsblock h
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Markiere Funktionsblock";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Wenn der erste Wert wahr (true) ist, Gebe den zweiten Wert zurück.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Warnung: Dieser Block darf nur innerhalb eines Funktionsblock genutzt werden.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "Variable:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Eine Eingabe zur Funktion hinzufügen.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "Parameter";

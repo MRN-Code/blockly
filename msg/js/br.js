@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Diwallit : an arc'hwel-mañ en d
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Dreislinennañ termenadur an arc'hwel";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Ma'z eo gwir un dalvoudenn, distreiñ un eil talvoudenn neuze.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Diwallit : Gallout a rafe ar bloc'h bezañ implijet e termenadur un arc'hwel hepken.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "Anv ar moned";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Ouzhpennañ ur moned d'an arc'hwel.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "Monedoù";

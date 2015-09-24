@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Attenzioneː Questa funzione ha 
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Evidenzia definizione di funzione";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Se un valore è vero allora restituisce un secondo valore.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Attenzioneː Questo blocco può essere usato solo all'interno di una definizione di funzione.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "nome inputː";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Aggiungi un input alla funzione.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "input";

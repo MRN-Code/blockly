@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "警告: 此函数具有重复参
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "突出显示函数定义";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "如果值为真，则返回第二个值。";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "警告: 仅在定义函数内可使用此块。";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "输入名称：";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "添加函数输入。";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "输入";

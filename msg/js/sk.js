@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Upozornenie: Táto funkcia má d
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Zvýrazniť definíciu funkcie";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Ak je hodnota pravda, tak vráti druhú hodnotu.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Upozornenie: Tento blok môže byť len vo vnútri funkcie.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "názov vstupu:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Pridať vstup do funkcie.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "vstupy";

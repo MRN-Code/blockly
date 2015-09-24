@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "सावधान: इस फ�
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "फ़ंक्शन परिभाषा को हाइलाइट करें";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "यदि एक मान ट्रू है तो, दूसरा मान रिटर्न करें।";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "सावधान: ये ब्लॉक फ़ंक्शन परिभाषा के अंदर ही इस्तेमाल किया जा सकता।";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "इनपुट का नाम:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "फंगक्शन को इनपुट प्रदान करें।";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "इनपुट";

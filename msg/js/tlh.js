@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "ghuHmoHna': qelwI' cha'logh chen
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "mIwna' wew";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "If a value is true, then return a second value.";  // untranslated
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "ghoHmoHna': ngoghvam ngaSbe' mIwDaq.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "pong:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Add an input to the function.";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "qelwI'mey";

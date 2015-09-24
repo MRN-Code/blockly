@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Figyelem: Az eljárásban azonos
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Függvénydefiníció kiemelése";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Ha az érték igaz, akkor visszatér a függvény értékével.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Figyelem: Ez a blokk csak függvénydefiníción belül használható.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "változó:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Bemenet hozzáadása a függvényhez.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "paraméterek";

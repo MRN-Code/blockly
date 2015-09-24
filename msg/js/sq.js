@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Paralajmërim: Ky funksion ka pa
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Thekso definicionin e funksionit";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Nëse një vlerë është e saktë, atëherë kthe një vlerë të dytë.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Paralajmërim: Ky bllok mund të përdoret vetëm brenda definicionit të funksionit.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "Fut emrin:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Add an input to the function.";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "Informacioni i futur";

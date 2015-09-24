@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Предупреждение: Т
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Покажи дефиницията на функцията";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Ако стойността е истина, върни втората стойност.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Предупреждение: Този блок може да се използва само във функция.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "име на параметър";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Добавяне на параметър към функцията.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "вход";

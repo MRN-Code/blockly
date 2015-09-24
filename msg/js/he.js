@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "אזהרה: לפונקציה ז�
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "הדגש הגדרה של פונקציה";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "אם ערך נכון, אז להחזיר ערך שני.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "אזהרה: בלוק זה עשוי לשמש רק בתוך הגדרה של פונקציה.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "שם הקלט:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "הוסף קלט לפונקציה";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "מקורות קלט";

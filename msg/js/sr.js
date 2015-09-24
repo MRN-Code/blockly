@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Упозорење: Ова фу�
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Истакни дефиницију функције";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Уколико је вредност тачна, врати другу вредност.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Упозорење: Овај блок се може користити једино у дефиницији функције.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "назив улаза:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Add an input to the function.";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "улази";

@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "اخطار: این تابعی پ
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "برجسته‌سازی تعریف تابع";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "اگر یک مقدار صحیح است، مقدار دوم را برگردان.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "اخطار: این بلوک احتمالاً فقط داخل یک تابع استفاده می‌شود.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "نام ورودی:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "اضافه کردن ورودی به تابع.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "ورودی‌ها";

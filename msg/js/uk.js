@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Увага: ця функція 
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Підсвітити визначення функції";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Якщо значення істинне, то повернути друге значення.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Попередження: цей блок може використовуватися лише в межах визначення функції.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "назва входу:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Додати до функції вхідні параметри.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "входи";

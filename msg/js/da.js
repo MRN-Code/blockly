@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Advarsel: Denne funktion har dub
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Markér funktionsdefinitionen";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Hvis en værdi er sand, så returnér en anden værdi.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Advarsel: Denne blok kan kun anvendes inden for en funktionsdefinition.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "parameternavn:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Tilføj en parameter til funktionen.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "parametre";

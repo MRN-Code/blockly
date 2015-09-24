@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "警告: 此函數中有重複的
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "反白顯示函式定義";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "如果值為 真，則返回第二個值。";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "警告: 此積木僅可在定義函式時使用。";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "變量:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Add an input to the function.";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "參數";

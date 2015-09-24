@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Ši komanda turi du vienodus gau
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Highlight function definition";  // untranslated
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Jeigu pirma reikšmė yra teisinga (sąlyga tenkinama), grąžina antrą reikšmę.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Perspėjimas: šis blokas gali būti naudojamas tik aprašant funkciją.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "parametro pavadinimas:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Pridėti funkcijos parametrą (gaunamų duomenų pavadinimą).";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "gaunami duomenys (parametrai)";

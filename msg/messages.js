@@ -51,7 +51,8 @@ goog.require('Blockly.Msg');
 /// default name - A simple, general default name for a variable, preferably short.
 /// For more context, see
 /// [[Translating:Blockly#infrequent_message_types]].\n{{Identical|Item}}
-Blockly.Msg.VARIABLES_DEFAULT_NAME = 'item';
+//Blockly.Msg.VARIABLES_DEFAULT_NAME = 'item';
+Blockly.Msg.VARIABLES_DEFAULT_NAME = 'rdoc value';
 /// button text - Botton that sets a calendar to today's date.\n{{Identical|Today}}
 Blockly.Msg.TODAY = 'Today';
 
@@ -1018,7 +1019,9 @@ Blockly.Msg.PROCEDURES_DEFNORETURN_TITLE = 'to';
 /// function definition block, as shown on
 /// [https://blockly-demo.appspot.com/static/apps/code/index.html?lang=en#w7cfju this block].
 /// The user will replace it with the function's name.
-Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = 'do something';
+//Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = 'do something';
+//This is a temp solution. TODO customize a function block
+Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = 'map rdoc value';
 /// block text - This precedes the list of parameters on a function's defiition block.  See
 /// [https://blockly-demo.appspot.com/static/apps/code/index.html?lang=en#voztpd this sample
 /// function with parameters].
@@ -1080,6 +1083,8 @@ Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TOOLTIP = 'Add, remove, or reorder input
 /// adding an individual parameter (referred to by the simpler term "inputs") to the function.
 /// See [[Translating:Blockly#function_definitions]].
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = 'input name:';
+/// param name
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = 'coins value';
 /// tooltip
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = 'Add an input to the function.';
 

@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Atension: Costa fonsion a l'ha d
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Sot-ligné la definission dla fonsion";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Se un valor a l'é ver, antlora smon-e un second valor.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Atension: Ës blòch a podria esse dovrà mach an na definission ëd fonsion.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "nòm ëd l'imission:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Gionté n'imission a la fonsion.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "imission";

@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "ระวัง: ฟังก์
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "เน้นฟังก์ชันนิยาม";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "ถ้ามีค่าเป็นจริง ให้คืนค่าที่สอง";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "ระวัง: บล็อกนี้ใช้เฉพาะในการสร้างฟังก์ชันเท่านั้น";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "ชื่อนำเข้า:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Add an input to the function.";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "นำเข้า";

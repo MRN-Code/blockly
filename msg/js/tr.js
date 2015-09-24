@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Uyarı: Bu fonksiyon yinelenen p
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Fonksiyon tanımı vurgulamak";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Eğer değer doğruysa, ikinci değere geri dön.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Uyarı: Bu blok yalnızca bir fonksiyon tanımı içinde kullanılır.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "girdi adı:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "İşleve bir girdi ekleyin.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "girdiler";

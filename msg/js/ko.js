@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "경고: 이 함수에는, 같은
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "함수 정의 찾기";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "값이 참이라면, 두번째 값을 반환합니다.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "경고: 이 블럭은, 함수 정의 블럭 안에서만 사용할 수 있습니다.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "매개 변수:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "함수에 값을 더합니다.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "매개 변수들";

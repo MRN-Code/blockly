@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "警告: この関数は、重複
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "関数の内容を強調表示します。";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "1番目値が true の場合、2 番目の値を返します。";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "警告: このブロックは、関数定義内でのみ使用できます。";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "入力名:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Add an input to the function.";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "入力";

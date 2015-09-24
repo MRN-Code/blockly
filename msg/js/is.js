@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Aðvörun: Þetta fall er með t
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Sýna skilgreiningu falls";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Ef gildi er satt, skal skila öðru gildi.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Aðvörun: Þennan kubb má aðeins nota í skilgreiningu falls.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "heiti inntaks:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Bæta inntaki við fallið.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "inntök";

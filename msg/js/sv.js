@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Varning: Denna funktion har dubb
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Markera funktionsdefinition";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Om ett värde är sant returneras ett andra värde.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Varning: Detta block får användas endast i en funktionsdefinition.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "inmatningsnamn:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Lägg till en inmatning till funktionen.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "inmatningar";

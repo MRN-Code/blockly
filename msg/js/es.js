@@ -282,6 +282,7 @@ Blockly.Msg.PROCEDURES_DEF_DUPLICATE_WARNING = "Advertencia: Esta función tiene
 Blockly.Msg.PROCEDURES_HIGHLIGHT_DEF = "Destacar definición de la función";
 Blockly.Msg.PROCEDURES_IFRETURN_TOOLTIP = "Si un valor es verdadero, entonces devuelve un segundo valor.";
 Blockly.Msg.PROCEDURES_IFRETURN_WARNING = "Advertencia: Este bloque solo puede ser utilizado dentro de la definición de una función.";
+Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME = "coins value";  // untranslated
 Blockly.Msg.PROCEDURES_MUTATORARG_TITLE = "nombre de entrada:";
 Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP = "Añadir una entrada a la función.";
 Blockly.Msg.PROCEDURES_MUTATORCONTAINER_TITLE = "entradas";
