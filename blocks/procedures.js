@@ -415,7 +415,8 @@ Blockly.Blocks['procedures_mutatorarg'] = {
     this.setColour(Blockly.Blocks.procedures.HUE);
     this.appendDummyInput()
         .appendField(Blockly.Msg.PROCEDURES_MUTATORARG_TITLE)
-        .appendField(new Blockly.FieldTextInput('x', this.validator_), 'NAME');
+        //.appendField(new Blockly.FieldTextInput('x', this.validator_), 'NAME');
+        .appendField(new Blockly.FieldTextInput(Blockly.Msg.PROCEDURES_MUTATORARG_PARAM_NAME, this.validator_), 'NAME');
     this.setPreviousStatement(true);
     this.setNextStatement(true);
     this.setTooltip(Blockly.Msg.PROCEDURES_MUTATORARG_TOOLTIP);
