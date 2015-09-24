@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"author": "Ellen Spertus <ellen.spertus@gmail.com>",
-		"lastupdated": "2015-09-24 13:31:41.883188",
+		"lastupdated": "2015-09-24 15:35:00.951368",
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
-	"VARIABLES_DEFAULT_NAME": "rdoc value",
+	"VARIABLES_DEFAULT_NAME": "coins value",
 	"TODAY": "Today",
 	"DUPLICATE_BLOCK": "Duplicate",
 	"ADD_COMMENT": "Add Comment",

@@ -170,7 +170,6 @@ Blockly.Blocks['procedures_defnoreturn'] = {
     } else {
       containerBlock.getInput('STATEMENT_INPUT').setVisible(false);
     }
-
     // Parameter list.
     var connection = containerBlock.getInput('STACK').connection;
     for (var i = 0; i < this.arguments_.length; i++) {
@@ -748,7 +747,8 @@ Blockly.Blocks['procedures_ifreturn'] = {
     var block = this;
     do {
       if (block.type == 'procedures_defnoreturn' ||
-          block.type == 'procedures_defreturn') {
+          block.type == 'procedures_defreturn' ||
+          block.type == 'procedures_defreturn_noretfield') {
         legal = true;
         break;
       }
@@ -761,7 +761,8 @@ Blockly.Blocks['procedures_ifreturn'] = {
         this.appendDummyInput('VALUE')
           .appendField(Blockly.Msg.PROCEDURES_DEFRETURN_RETURN);
         this.hasReturnValue_ = false;
-      } else if (block.type == 'procedures_defreturn' &&
+      } else if ((block.type == 'procedures_defreturn' || 
+                 block.type == 'procedures_defreturn_noretfield')&&
                  !this.hasReturnValue_) {
         this.removeInput('VALUE');
         this.appendValueInput('VALUE')
@@ -793,4 +794,67 @@ Blockly.Blocks['procedures_elsereturn'] = {
     this.setHelpUrl('http://www.example.com/');
     this.hasReturnValue_ = true;
   }
+};
+ 
+//Blockly.Blocks['procedures_defreturn_noretfield'] = Blockly.Blocks['procedures_defnoreturn'];
+/**
+ * This block copied from block `procedures_defreturn`
+ * And comment out the `return statement` from the block
+ * Everything else being the same as `procedures_defreturn`
+ *
+ * This block itself does not have a return field, but allow
+ * the block inside this block return a value. This is different
+ * from `procedures_defnoreturn` which does not allow a return value at all.
+ * (09/23/2015 RWANG)
+ */
+Blockly.Blocks['procedures_defreturn_noretfield'] = {
+  /**
+   * Block for defining a procedure with a return value.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.setHelpUrl(Blockly.Msg.PROCEDURES_DEFRETURN_HELPURL);
+    this.setColour(Blockly.Blocks.procedures.HUE);
+    var nameField = new Blockly.FieldTextInput(
+        Blockly.Msg.PROCEDURES_DEFRETURN_PROCEDURE,
+        Blockly.Procedures.rename);
+    nameField.setSpellcheck(false);
+    this.appendDummyInput()
+        .appendField(Blockly.Msg.PROCEDURES_DEFRETURN_TITLE)
+        .appendField(nameField, 'NAME')
+        .appendField('', 'PARAMS');
+    /*
+    this.appendValueInput('RETURN')
+        .setAlign(Blockly.ALIGN_RIGHT)
+        .appendField(Blockly.Msg.PROCEDURES_DEFRETURN_RETURN);
+    */
+    this.setMutator(new Blockly.Mutator(['procedures_mutatorarg']));
+    this.setTooltip(Blockly.Msg.PROCEDURES_DEFRETURN_TOOLTIP);
+    this.arguments_ = [];
+    this.setStatements_(true);
+    this.statementConnection_ = null;
+  },
+  setStatements_: Blockly.Blocks['procedures_defnoreturn'].setStatements_,
+  validate: Blockly.Blocks['procedures_defnoreturn'].validate,
+  updateParams_: Blockly.Blocks['procedures_defnoreturn'].updateParams_,
+  mutationToDom: Blockly.Blocks['procedures_defnoreturn'].mutationToDom,
+  domToMutation: Blockly.Blocks['procedures_defnoreturn'].domToMutation,
+  decompose: Blockly.Blocks['procedures_defnoreturn'].decompose,
+  compose: Blockly.Blocks['procedures_defnoreturn'].compose,
+  dispose: Blockly.Blocks['procedures_defnoreturn'].dispose,
+  /**
+   * Return the signature of this procedure definition.
+   * @return {!Array} Tuple containing three elements:
+   *     - the name of the defined procedure,
+   *     - a list of all its arguments,
+   *     - that it DOES have a return value.
+   * @this Blockly.Block
+   */
+  getProcedureDef: function() {
+    return [this.getFieldValue('NAME'), this.arguments_, true];
+  },
+  getVars: Blockly.Blocks['procedures_defnoreturn'].getVars,
+  renameVar: Blockly.Blocks['procedures_defnoreturn'].renameVar,
+  customContextMenu: Blockly.Blocks['procedures_defnoreturn'].customContextMenu,
+  callType_: 'procedures_callreturn'
 };

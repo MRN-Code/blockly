@@ -52,7 +52,7 @@ goog.require('Blockly.Msg');
 /// For more context, see
 /// [[Translating:Blockly#infrequent_message_types]].\n{{Identical|Item}}
 //Blockly.Msg.VARIABLES_DEFAULT_NAME = 'item';
-Blockly.Msg.VARIABLES_DEFAULT_NAME = 'rdoc value';
+Blockly.Msg.VARIABLES_DEFAULT_NAME = 'coins value';
 /// button text - Botton that sets a calendar to today's date.\n{{Identical|Today}}
 Blockly.Msg.TODAY = 'Today';
 
