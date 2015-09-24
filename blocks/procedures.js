@@ -774,3 +774,23 @@ Blockly.Blocks['procedures_ifreturn'] = {
     }
   }
 };
+
+/**
+ * This is customized block. Created to follow the `procedures_ifreturn` block
+ * (09/23/2015 RWANG)
+ */
+Blockly.Blocks['procedures_elsereturn'] = {
+  init: function() {
+    this.appendDummyInput()
+        .setAlign(Blockly.ALIGN_RIGHT)
+        .appendField("else");
+    this.appendValueInput("VALUE")
+        .appendField("return");
+    this.setInputsInline(true);
+    this.setPreviousStatement(true);
+    this.setColour(105);
+    this.setTooltip('');
+    this.setHelpUrl('http://www.example.com/');
+    this.hasReturnValue_ = true;
+  }
+};
