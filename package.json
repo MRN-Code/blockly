@@ -32,9 +32,6 @@
     "url": "https://github.com/MRN-Code/blockly/issues"
   },
   "pre-commit": [
-    "lint",
-    "validate",
-    "test"
   ],
   "homepage": "https://github.com/MRN-Code/blockly"
 }
