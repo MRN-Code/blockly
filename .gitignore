@@ -5,3 +5,11 @@ npm-debug.log
 .project
 *.pyc
 *.komodoproject
+msg/js/*.js
+blockly_compressed.js
+blockly_uncompressed.js
+blocks_compressed.js
+dart_compressed.js
+javascript_compressed.js
+php_compressed.js
+python_compressed.js

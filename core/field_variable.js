@@ -137,8 +137,14 @@ Blockly.FieldVariable.dropdownCreate = function() {
     variableList.push(name);
   }
   variableList.sort(goog.string.caseInsensitiveCompare);
-  variableList.push(Blockly.Msg.RENAME_VARIABLE);
-  variableList.push(Blockly.Msg.NEW_VARIABLE);
+
+  /**
+   * This piece of code was modified. Comment out two pushes and add one new push
+   */
+  //variableList.push(Blockly.Msg.RENAME_VARIABLE);
+  //variableList.push(Blockly.Msg.NEW_VARIABLE);
+  variableList.push(''); //have to push something to avoid error thrown
+
   // Variables are not language-specific, use the name as both the user-facing
   // text and the internal representation.
   var options = [];
