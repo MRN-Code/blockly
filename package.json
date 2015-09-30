@@ -1,32 +1,37 @@
 {
-  "name": "blockly-src",
+  "name": "blockly",
   "version": "1.0.0",
-  "description": "Blockly is a library for building visual programming editors.",
-  "keywords": ["blockly"],
+  "description": "COINS blockly",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coins-grunt-env": "1.0.1",
+    "grunt": "0.4.5",
+    "grunt-env": "0.4.4",
+    "grunt-exec": "^0.4.6",
+    "load-grunt-config": "0.17.2",
+    "load-grunt-tasks": "3.2.0",
+    "precommit-hook": "3.0.0",
+    "time-grunt": "1.2.1"
+  },
   "scripts": {
-    "lint": "jshint ."
+    "lint": "echo 'run linter!'",
+    "validate": "echo 'run validator!'",
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/google/blockly.git"
+    "url": "https://github.com/MRN-Code/blockly.git"
   },
+  "author": "",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/google/blockly/issues"
+    "url": "https://github.com/MRN-Code/blockly/issues"
   },
-  "homepage": "https://developers.google.com/blockly/",
-  "author": {
-    "name": "Neil Fraser"
-  },
-  "license": "Apache-2.0",
-  "private": true,
-  "devDependencies": {
-    "jshint": "latest"
-  },
-  "jshintConfig": {
-    "globalstrict": true,
-    "predef": ["Blockly", "goog", "window", "document", "soy", "XMLHttpRequest"],
-    "sub": true,
-    "undef": true,
-    "unused": true
-  }
+  "pre-commit": [
+  ],
+  "homepage": "https://github.com/MRN-Code/blockly"
 }
