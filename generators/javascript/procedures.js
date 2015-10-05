@@ -106,3 +106,20 @@ Blockly.JavaScript['procedures_ifreturn'] = function(block) {
   code += '}\n';
   return code;
 };
+
+Blockly.JavaScript['procedures_elsereturn'] = function(block) {
+  // Simply return a value as all other if statements passed.
+  var code = 'return';
+  if (block.hasReturnValue_) {
+    var value = Blockly.JavaScript.valueToCode(block, 'VALUE',
+        Blockly.JavaScript.ORDER_NONE) || 'null';
+    code += ' ' + value + ';\n';
+  } else {
+    code += ';\n';
+  }
+  return code;
+};
+
+//Uses the same generator as that for `procedures_defreturn`
+Blockly.JavaScript['procedures_defreturn_noretfield'] = 
+    Blockly.JavaScript['procedures_defreturn'];
