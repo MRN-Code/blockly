@@ -125,8 +125,8 @@ Blockly.PHP['procedures_elsereturn'] = function(block) {
   // Simply return a value as all other if statements passed.
   var code = 'return';
   if (block.hasReturnValue_) {
-    var value = Blockly.JavaScript.valueToCode(block, 'VALUE',
-        Blockly.JavaScript.ORDER_NONE) || 'null';
+    var value = Blockly.PHP.valueToCode(block, 'VALUE',
+        Blockly.PHP.ORDER_NONE) || 'null';
     code += ' ' + value + ';\n';
   } else {
     code += ';\n';
