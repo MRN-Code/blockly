@@ -1021,7 +1021,7 @@ Blockly.Msg.PROCEDURES_DEFNORETURN_TITLE = 'to';
 /// The user will replace it with the function's name.
 //Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = 'do something';
 //This is a temp solution. TODO customize a function block
-Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = 'map rdoc value';
+Blockly.Msg.PROCEDURES_DEFNORETURN_PROCEDURE = 'map NDA value';
 /// block text - This precedes the list of parameters on a function's defiition block.  See
 /// [https://blockly-demo.appspot.com/static/apps/code/index.html?lang=en#voztpd this sample
 /// function with parameters].
