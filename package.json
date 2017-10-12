@@ -7,6 +7,7 @@
     "test": "test"
   },
   "dependencies": {
+    "google-closure-library": "^20170910.0.0"
   },
   "devDependencies": {
     "coins-grunt-env": "*",
@@ -19,6 +20,8 @@
     "time-grunt": "1.2.1"
   },
   "scripts": {
+    "build": "./build.py",
+    "postinstall": "ln -s $(npm root)/google-closure-library ../closure-library",
     "lint": "echo 'run linter!'",
     "validate": "echo 'run validator!'",
     "test": "grunt test"
