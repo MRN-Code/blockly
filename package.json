@@ -20,7 +20,7 @@
     "time-grunt": "1.2.1"
   },
   "scripts": {
-    "build": "./build.py",
+    "build": "./build.py && ./bundle.sh",
     "postinstall": "ln -s $(npm root)/google-closure-library ../closure-library",
     "lint": "echo 'run linter!'",
     "validate": "echo 'run validator!'",
