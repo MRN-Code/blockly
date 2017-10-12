@@ -7,13 +7,13 @@
     "test": "test"
   },
   "dependencies": {
-    "google-closure-library": "^20170910.0.0"
+    "google-closure-library": "20170910.0.0"
   },
   "devDependencies": {
     "coins-grunt-env": "*",
     "grunt": "0.4.5",
     "grunt-env": "0.4.4",
-    "grunt-exec": "^0.4.6",
+    "grunt-exec": "0.4.6",
     "load-grunt-config": "0.17.2",
     "load-grunt-tasks": "3.2.0",
     "precommit-hook": "3.0.0",
