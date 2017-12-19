@@ -7,7 +7,7 @@ umask 002
 echo "Creating build/js dir"
 mkdir -p build/js
 
-#bundle up pre-minify js
+#bundle js
 echo "Creating bundle.."
 cat \
   "blockly_compressed.js" \
@@ -16,5 +16,5 @@ cat \
   "javascript_compressed.js" \
   "php_compressed.js" \
   "msg/js/en.js" \
-  > build/js/blockly.bundle.js
-echo "SUCCESS: build/js/blockly.bundle.js"
+  > build/js/coins-blockly.js
+echo "SUCCESS: build/js/coins-blockly.js"
