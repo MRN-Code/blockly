@@ -21,7 +21,7 @@
   },
   "scripts": {
     "build": "./build.py && ./bundle.sh",
-    "postinstall": "ln -s $(npm root)/google-closure-library ../closure-library",
+    "postinstall": "ln -sfn $(npm root)/google-closure-library ../closure-library",
     "lint": "echo 'run linter!'",
     "validate": "echo 'run validator!'",
     "test": "grunt test"
